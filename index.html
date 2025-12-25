@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arun– Portfolio</title>
+  <meta name="description"
+    content="Arun – Creative Web Designer & Full-Stack Developer Developer. Animated, responsive portfolio with projects, skills, and contact." />
+  <meta name="keywords" content="Arun, portfolio, web designer, frontend developer, HTML, CSS, JavaScript" />
+
+  <!-- Favicon (optional) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2300d1ff'/><text x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <div class="logo">A</div>
+        <strong>Arun</strong>
+      </a>
+      <nav class="navlinks" id="navlinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        
+        <a href="#contact">Contact</a>
+        <button class="btn" id="themeToggle" aria-label="Toggle theme">🌗 Theme</button>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container" id="home">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow reveal"><span class="glow-dot"></span> Available for Full Time Jobs</div>
+        <h1 class="reveal" style="transition-delay:.06s">Hi, I'm Arun —
+          <span
+            style="background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent">Software-Developer</span>
+          & Full-Stack Developer
+        </h1>
+        <p class="lead reveal" style="transition-delay:.12s">Specializing in website creation, modern web design, Full-Stack Development.</p>
+        <div class="cta reveal" style="transition-delay:.18s">
+          <a class="btn primary" href="#projects">🚀 See Projects</a>
+          <a class="btn" href="#contact">📩 Contact Me</a>
+        </div>
+      </div>
+      <div class="avatar-card reveal" style="transition-delay:.2s">
+        <img class="avatar"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop"
+          alt="Arun" />
+        <div class="rings" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="container" id="about">
+    <h2 class="section-title reveal">About Me</h2>
+    <p class="section-sub reveal" style="max-width:800px">I'm a Computer Engineering student and full-stack developer crafting delightful high-performance products with clean code. I build intuitive, motion-rich frontends and scalable, efficient backend systems to bring ideas to life.</p>
+    <div class="about">
+      <div class="card reveal">
+        <h3>What I do</h3>
+        <ul>
+          <li>Modern, responsive websites</li>
+          <li>Craft Interactive Frontends</li>
+          <li>Build Scalable Backends</li>
+          <li>Ensure Usability & Performance</li>
+        </ul>
+      </div>
+      <div class="card reveal" style="transition-delay:.06s">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Engaging UI Design</li>
+          <li>Scalable Full-Stack Solutions</li>
+          <li>High-Performance Systems</li>
+          <li>User-Centric Innovation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="container" id="skills">
+    <h2 class="section-title reveal">Skills</h2>
+    
+    <div class="skills">
+      <div class="skill reveal" style="transition-delay:.16s"><strong>C++</strong>
+        <div class="bar" data-level="70"></div>
+      </div>
+      
+      <div class="skill reveal"><strong>HTML</strong>
+        <div class="bar" data-level="95"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.04s"><strong>CSS</strong>
+        <div class="bar" data-level="92"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.08s"><strong>JavaScript</strong>
+        <div class="bar" data-level="88"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.12s"><strong>React.js</strong>
+        <div class="bar" data-level="84"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.16s"><strong>Node.js</strong>
+        <div class="bar" data-level="70"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.20s"><strong>Mongo-Db</strong>
+        <div class="bar" data-level="68"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.16s"><strong>Express.js</strong>
+        <div class="bar" data-level="70"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="container" id="projects">
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <p class="section-sub reveal">A mix of UI animations, landing pages and tools</p>
+    <div class="grid">
+       <article class="card reveal">
+        <div class="thumb">
+          <img src="image copy 4.png" alt="STAY VISTA">
+        </div>
+        <div class="content">
+          <span class="tag">Rest Api</span>
+          <span class="tag">Design</span>
+          <h3>STAY VISTA</h3>
+          <p>Built a responsive Hotel Booking app using MERN Stack </p>
+          <a class="btn" href="https://currency-converter-4rrh4iyij-aruns-projects-dc217d8d.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.04s">
+        <div class="thumb">
+          <img src="image copy 5.png"
+            alt="TECH STORE">
+        </div>
+        <div class="content">
+          <span class="tag">E-Commerce</span>
+          <span class="tag">Authentication</span>
+          <h3>TECH STORE</h3>
+          <p>Developed a Tech Store app with API integration using MERN Stack </p>
+          <a class="btn" href="https://tech-store-iota-three.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.08s">
+        <div class="thumb">
+          <img src="image copy 3.png" alt="STUDY NOTION">
+        </div>
+        <div class="content">
+          <span class="tag">E-Learning</span>
+          <span class="tag">Responsive</span>
+          <h3>STUDY NOTION</h3>
+          <p>Created a modern E-Learning Platform using MERN Stack </p>
+          <a class="btn" href="https://studynotion-frontend-amber.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb">
+          <img src="image.png" alt="Currency Converter">
+        </div>
+        <div class="content">
+          <span class="tag">Rest Api</span>
+          <span class="tag">Design</span>
+          <h3>Currency Converter</h3>
+          <p>Built a responsive currency conversion app using real-time CurrencyAPI, </p>
+          <a class="btn" href="https://currency-converter-4rrh4iyij-aruns-projects-dc217d8d.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.04s">
+        <div class="thumb">
+          <img src="image copy.png"
+            alt="Weather Prediction App">
+        </div>
+        <div class="content">
+          <span class="tag">Seasonal</span>
+          <span class="tag">Themed UI</span>
+          <h3>Weather Prediction App</h3>
+          <p>Developed a weather forecasting app with API integration </p>
+          <a class="btn" href="https://weather-prediction-website.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.08s">
+        <div class="thumb">
+          <img src="image copy 2.png" alt="Personal Portfolio Website">
+        </div>
+        <div class="content">
+          <span class="tag">Portfolio</span>
+          <span class="tag">Responsive</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>Created a modern portfolio with interactive UI </p>
+          <a class="btn" href="https://portfolio-mu-ten-86.vercel.app/" target="_blank">Demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Services -->
+
+
+  <!-- Contact -->
+  <section class="container" id="contact">
+    <h2 class="section-title reveal">Get in touch</h2>
+    <p class="section-sub reveal">Have a project in mind? Let's build something beautiful.</p>
+    <hr> <h4 style="font-size: medium;">Contacts: +91-8950662810 <br>Mail: arunbhardwaj5678@gmail.com </h4>
+    <div style="display: flex; gap:25px; margin-bottom: 10px;">
+        <a class="btn" href="https://www.linkedin.com/in/arun-bhardwaj-578101221/" target="_blank"> Linked In</a>
+        <a class="btn" href="https://github.com/ArunBhardwaj0" target="_blank">GitHub</a>
+    </div>
+    <form class="reveal" id="contactForm">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email address" required>
+      <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+      <button class="btn primary" type="submit">Send Message</button>
+      
+    </form>
+   
+  </section>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+        <p>© <span id="year"></span> Arun Bhardwaj. All rights reserved.</p>
+        <div style="display:flex;gap:10px;align-items:center">
+          
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="screipt.js"></script>
+</body>
+
+</html>
